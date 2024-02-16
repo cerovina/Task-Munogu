@@ -1,24 +1,10 @@
-# munogu-task-app
+#Random Post Fetcher
 
-## Project setup
-```
-npm install
-```
+#This Vue.js component fetches random posts from the JSONPlaceholder API and displays them in a container with a clickable, hoverable interface. The container dynamically adjusts its height based on the fetched text content.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+##Features
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Fetches random posts from JSONPlaceholder API.
+- Clicking on the container toggles fetching state.
+- Pauses fetching on mouseover and resumes on mouseout.
+- Dynamically adjusts container height based on text content.
